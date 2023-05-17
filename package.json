@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "users": "node ./models/data/users.js",
     "start": "node ./server.js",
     "dev": "nodemon ./server.js"
   },
