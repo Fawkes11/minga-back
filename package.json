@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "categories": "node ./models/data/categories.js",
     "users": "node ./models/data/users.js",
     "authors": "node ./models/data/authors.js",
     "start": "node ./server.js",
